@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joluro Soft - Servicios de Desarrollo Web y Macros</title>
+    <!-- Incluimos el CDN de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #333;
+        }
+        /* Estilos del contenedor principal */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 10px;
+        }
+        /* Encabezado */
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            color: #f1c40f; /* Amarillo dorado */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        /* Sección de contenido */
+        .content {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            max-width: 1100px;
+        }
+        .text {
+            max-width: 600px;
+            text-align: left;
+            padding: 20px;
+        }
+        .photo {
+            max-width: 300px;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg, #f1c40f, #f5e773); /* Degradado sutil */
+            color: #333;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Estilos responsivos */
+        @media (min-width: 768px) {
+            .content {
+                flex-direction: row;
+            }
+        }
+        /* Estilos del ícono de WhatsApp */
+        .whatsapp-contact {
+            display: flex;
+            flex-direction: column; /* Apilar en columnas */
+            align-items: flex-start; /* Alinear a la izquierda */
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .whatsapp-contact i {
+            margin-right: 10px;
+            color: #25D366; /* Color verde característico de WhatsApp */
+        }
+        .whatsapp-contact a, .whatsapp-contact p {
+            margin: 5px 0; /* Añadir espacio entre los elementos */
+            text-decoration: none;
+            color: inherit;
+        }
+        /* Estilos específicos para pantallas pequeñas */
+        @media (max-width: 767px) {
+            .whatsapp-contact {
+                align-items: center; /* Centrar en pantallas pequeñas */
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Joluro Soft - Servicios de Desarrollo de software</h1>
+            <p>Ofrecemos soluciones personalizadas para el desarrollo de páginas web y macros que se adapten a tus necesidades.</p>
+        </header>
+
+        <div class="content">
+            <div class="text">
+                <h2>Transforma tu visión en realidad</h2>
+                <p>Hola, soy Jorge Rodriguez, fundador de Joluro Soft. Ofrecemos servicios de desarrollo web y macros de nivel intermedio y avanzado para optimizar procesos. Trabajamos con cada cliente para crear soluciones tecnológicas adaptadas a sus necesidades.</p>
+                <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+                <div class="whatsapp-contact">
+                    <i class="fab fa-whatsapp"></i>
+                    <a href="https://wa.me/573176644669" target="_blank">
+                        <strong>3176644669</strong>
+                    </a>
+                    <p>Email: <a href="mailto:jorge@example.com">joluro86@hotmail.com</a></p>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="mi_foto.jpeg" alt="Imagen representativa del servicio">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Jorge Rodriguez | Joluro Soft. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
